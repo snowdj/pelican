@@ -20,11 +20,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
+# Links (in default theme)
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
+         
+# for bootstrap theme, need some pages, liek this:
+# MENITEMS = (('About', #),)
 
 GITHUB_URL = 'https://github.com/homerhanumat'
 TWITTER_URL = 'https://twitter.com/homerhanumat'
@@ -34,6 +37,7 @@ GOOGLEPLUS_URL = 'https://www.facebook.com/homer.white1'
 # Social widget
 SOCIAL = (('Gihub', 'GITHUB-URL'),
           ('Facebook', 'FACEBOOK-URL'),)
+
 
 DEFAULT_PAGINATION = 10
 
