@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Homer White'
 SITENAME = "Homer's Pelican Site"
 SITEURL = 'https://homerhanumat.github.io/pelican'
+THEME = "/Users/homer/pelican-themes/gum"
 
 PATH = 'content'
 
@@ -25,16 +26,24 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
+GITHUB_URL = 'https://github.com/homerhanumat'
+TWITTER_URL = 'https://twitter.com/homerhanumat'
+FACEBOOK_URL = 'https://plus.google.com/+HomerWhitehomerhanumat'
+GOOGLEPLUS_URL = 'https://www.facebook.com/homer.white1'
+
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Gihub', 'GITHUB-URL'),
+          ('Facebook', 'FACEBOOK-URL'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
+
+
+
